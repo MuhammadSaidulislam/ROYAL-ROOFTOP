@@ -93,28 +93,28 @@ const GiveawayAndfaq = () => {
             <div className={styles.faqInner}>
 
               <OwlCarousel className='owl-theme owl-carousel' {...options}>
-                <div class='item'>
+                <div className='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <img src={oculus} alt="" className={styles.img} />
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={gWagon} type="video/mp4" />
                   </video>
                 </div>
-                <div class='item'>
+                <div className='item'>
                   <video autoPlay muted className={styles.img1}>
                     <source src={tDubai} type="video/mp4" />
                   </video>
